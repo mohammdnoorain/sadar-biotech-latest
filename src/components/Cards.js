@@ -5,11 +5,11 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1 className=" text-4xl font-bold text-green-500 hover:text-blue-800 transition-colors duration-300 sm:hover:text-blue-800 transition-colors duration-300">
+      <h1 className=" text-4xl font-bold text-green-600 hover:text-blue-900 transition-colors duration-300 sm:hover:text-blue-900 transition-colors duration-300">
             Our Products
             </h1>
       <div class="flex items-center justify-center min-h-[20vh] px-4">
-  <p class="text-center text-lg lg:text-xl text-gray-800 font-bold transition-transform duration-300 hover:translate-x-2  hover:text-green-500"  >
+  <p class="text-center text-lg lg:text-xl text-gray-800 font-bold transition-transform duration-300 hover:translate-x-2  hover:text-green-600"  >
     Sadar Biotech is renowned for delivering top-notch products, including API & Intermediates, 
     Pesticides & Fertilizers, and Surfactants, ensuring unparalleled quality.
   </p>

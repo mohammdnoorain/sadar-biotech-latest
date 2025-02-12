@@ -32,7 +32,7 @@ const Showcase2 = () => {
 
   return (
     <div className="bg-white flex flex-col items-center py-16 px-6">
-      <h1 className="text-4xl font-bold text-green-500 mb-4 hover:text-blue-800">
+      <h1 className="text-4xl font-bold text-green-600 mb-4 hover:text-blue-900">
         Explore Our Products
       </h1>
       <div className="burning-line-container mb-8">

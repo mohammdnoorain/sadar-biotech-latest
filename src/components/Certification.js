@@ -19,7 +19,7 @@ const Certification = () => {
       >
         {/* Left Content */}
         <div className="flex-1">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4 text-green-500">
+          <h2 className="text-xl sm:text-2xl font-bold mb-4 text-green-600">
             CERTIFICATE
           </h2>
           <p className="text-sm sm:text-base mb-2">

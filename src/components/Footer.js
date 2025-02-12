@@ -40,7 +40,7 @@ const Footer = () => {
       {/* World Map with Marker */}
       <div className="relative hidden md:block">
         <img src="images/map3.jpeg" alt="World Map" className="w-48 h-auto" />
-        <i className="fas fa-map-marker-alt text-green-500 absolute top-14 left-[99px] text-l"></i>
+        <i className="fas fa-map-marker-alt text-green-600 absolute top-14 left-[99px] text-l"></i>
       </div>
     </footer>
   );

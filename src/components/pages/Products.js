@@ -659,7 +659,7 @@ const Products = () => {
       {/* <Showcase2/> */}
 
       <div className="w-full p-6 bg-gradient-to-r from-white via-blue-50 to-green-200 py-10">
-        <h1 className="text-4xl font-bold mb-6 text-center text-green-500 hover:text-blue-800 transition-colors duration-300" >Our Products</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center text-green-600 hover:text-blue-900 transition-colors duration-300" >Our Products</h1>
         {productData.map((item, index) => (
           <div
             key={item.id}
@@ -667,7 +667,7 @@ const Products = () => {
           >
             <h2
               onClick={() => toggleDropdown(index)}
-              className="text-2xl font-semibold text-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-green-500"
+              className="text-2xl font-semibold text-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-green-600"
             >
                  <span className="text-3xl mr-5">
               {activeIndex === index ? "-" : "+"}
@@ -684,13 +684,13 @@ const Products = () => {
              <div>
              {item.table.map((tableItem, i) => (
                <div key={i} className="mb-6">
-                 <h3 className="text-xl font-semibold mb-4 cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-blue-800">
+                 <h3 className="text-xl font-semibold mb-4 cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-blue-900">
                    {tableItem.category}
                  </h3>
                  <div className="overflow-x-auto">
                    <table className="w-full border-collapse border border-blue-500">
                      <thead>
-                       <tr className="bg-blue-800">
+                       <tr className="bg-blue-900">
                          {Object.keys(tableItem.products[0] || {}).map((header, idx) => (
                            <th
                              key={idx}
@@ -705,7 +705,7 @@ const Products = () => {
                        {tableItem.products.map((product, j) => (
                          <tr
                            key={j}
-                           className="hover:bg-green-500 cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-white"
+                           className="hover:bg-green-600 cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-white"
                          >
                    
                            {Object.values(product).map((value, idx) => (

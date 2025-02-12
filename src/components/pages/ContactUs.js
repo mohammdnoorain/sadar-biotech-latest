@@ -62,7 +62,7 @@ const ContactUs = () => {
         <div className="max-w-7xl mx-auto px-6">
           {/* Contact Header */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-blue-600 hover:text-green-500 transition-colors duration-300">
+            <h1 className="text-4xl font-bold text-blue-900 hover:text-green-600 transition-colors duration-300">
               Get in Touch
             </h1>
             <div className="burning-line-container mb-8">
@@ -77,15 +77,15 @@ const ContactUs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
             {/* Contact Info */}
             <div className="space-y-6 text-gray-700">
-              <h2 className="text-3xl font-bold text-blue-600 mb-6">
+              <h2 className="text-3xl font-bold text-blue-900 mb-6">
                 Our Units & Addresses
               </h2>
               {/* <p className="transition-transform duration-300 hover:translate-x-2">
-                <span className="font-semibold text-green-500">Email:</span>{" "}
+                <span className="font-semibold text-green-600">Email:</span>{" "}
                 info@sadarbiotech.com
               </p>
               <p className="transition-transform duration-300 hover:translate-x-2">
-                <span className="font-semibold text-green-500">Phone:</span> +91
+                <span className="font-semibold text-green-600">Phone:</span> +91
                 9226077649
               </p> */}
 
@@ -96,14 +96,14 @@ const ContactUs = () => {
   <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
     <div className="border border-gray-300 p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/2">
       <p className="transition-transform duration-300 hover:translate-x-2">
-        <span className="font-semibold text-green-500">Registered office:</span>
+        <span className="font-semibold text-green-600">Registered office:</span>
         Sy. No. 136/11, Gauravaddo, Calangute, North Goa 403516
       </p>
     </div>
 
     <div className="border border-gray-300 p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/2">
       <p className="transition-transform duration-300 hover:translate-x-2">
-        <span className="font-semibold text-green-500">Admin office:</span>
+        <span className="font-semibold text-green-600">Admin office:</span>
         Above Puma Store, Floor 2, Chogm Road, Porvorim, North Goa 403521
       </p>
     </div>
@@ -111,7 +111,7 @@ const ContactUs = () => {
 
   {/* Manufacturing Units */}
   <div className="space-y-4">
-    <p className="font-semibold text-green-500 text-lg">Manufacturing Units:</p>
+    <p className="font-semibold text-green-600 text-lg">Manufacturing Units:</p>
 
     {/* Unit 1 and Unit 2 side by side */}
     <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
@@ -147,10 +147,10 @@ const ContactUs = () => {
 {/* ########################### */}
 <div className="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0">
   <p className="transition-transform duration-300 hover:translate-x-2">
-    <span className="font-semibold text-green-500">Email:</span> info@sadarbiotech.com
+    <span className="font-semibold text-green-600">Email:</span> info@sadarbiotech.com
   </p>
   <p className="transition-transform duration-300 hover:translate-x-2">
-    <span className="font-semibold text-green-500">Phone:</span> +91 9226077649
+    <span className="font-semibold text-green-600">Phone:</span> +91 9226077649
   </p>
 </div>
 
@@ -178,7 +178,7 @@ const ContactUs = () => {
                       </div>
 
                       {/* Green Div */}
-                      <div className="absolute bg-green-500 w-2/3 h-[300px] top-0 left-[120%] shadow-md z-0 ">
+                      <div className="absolute bg-green-600 w-2/3 h-[300px] top-0 left-[120%] shadow-md z-0 ">
                         {/* Green div with sharp corners */}
                       </div>
                     </div>
@@ -189,7 +189,7 @@ const ContactUs = () => {
 
             {/* Contact Form */}
             <div className="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 order-first lg:order-last">
-              <h2 className="text-3xl font-bold text-blue-600 mb-6">
+              <h2 className="text-3xl font-bold text-blue-900 mb-6">
                 Fill the Form to Connect
               </h2>
               <form onSubmit={handleSubmit}>
@@ -207,7 +207,7 @@ const ContactUs = () => {
                     name="companyName"
                     value={formData.companyName}
                     onChange={handleChange}
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   />
                 </div>
 
@@ -225,7 +225,7 @@ const ContactUs = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   />
                 </div>
 
@@ -243,7 +243,7 @@ const ContactUs = () => {
                     name="designation"
                     value={formData.designation}
                     onChange={handleChange}
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   />
                 </div>
 
@@ -261,7 +261,7 @@ const ContactUs = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   />
                 </div>
 
@@ -279,7 +279,7 @@ const ContactUs = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   />
                 </div>
 
@@ -297,7 +297,7 @@ const ContactUs = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   />
                 </div>
 
@@ -315,7 +315,7 @@ const ContactUs = () => {
                     value={formData.enquiry}
                     onChange={handleChange}
                     rows="4"
-                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200 hover:border-green-500"
+                    className="mt-2 w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-200 hover:border-green-600"
                   ></textarea>
                 </div>
 
@@ -323,7 +323,7 @@ const ContactUs = () => {
                 <div className="mb-6">
                   <button
                     type="submit"
-                    className="w-full bg-green-600 text-white p-3 rounded-md shadow-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-300"
+                    className="w-full bg-green-600 text-white p-3 rounded-md shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 transition-all duration-300"
                   >
                     Submit
                   </button>

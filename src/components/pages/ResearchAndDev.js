@@ -11,7 +11,7 @@ const ResearchAndDev = () => {
       {/* Main Content Area */}
       <div className="max-w-6xl mx-auto px-6 py-12 text-gray-800">
         {/* Page Title */}
-        <h1 className="text-4xl font-extrabold text-center mb-2 tracking-wide text-green-500  hover:text-blue-800 transition-colors duration-300">
+        <h1 className="text-4xl font-extrabold text-center mb-2 tracking-wide text-green-600  hover:text-blue-800 transition-colors duration-300">
           Research & Development
         </h1>
         <div className="burning-line-container mb-8">
@@ -83,7 +83,7 @@ const ResearchAndDev = () => {
 
         {/* Closing Section */}
         <div className="bg-white text-gray-800 p-8 rounded-lg shadow-2xl">
-          <h2 className="text-3xl font-bold text-green-500 mb-6">
+          <h2 className="text-3xl font-bold text-green-600 mb-6">
             Join Us on Our Journey
           </h2>
           <p className="text-lg text-gray-700">

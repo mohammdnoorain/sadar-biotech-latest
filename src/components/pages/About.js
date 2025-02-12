@@ -95,7 +95,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Vision and Mission */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-blue-900 mb-4">
               Our Vision & Mission
             </h2>
          
@@ -111,7 +111,7 @@ const About = () => {
 
           {/* Product Specialization */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-blue-900 mb-4">
               Product Specialization
             </h2>
             <p className="text-black leading-relaxed">
@@ -125,7 +125,7 @@ const About = () => {
 
           {/* Global Presence */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-blue-900 mb-4">
               Global Presence
             </h2>
             <p className="text-black leading-relaxed">
@@ -138,7 +138,7 @@ const About = () => {
 
           {/* Pharmaceutical Excellence */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-blue-900 mb-4">
               Pharmaceutical Excellence
             </h2>
             <p className="text-black leading-relaxed">
@@ -152,7 +152,7 @@ const About = () => {
 
           {/* Sustainability */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-blue-900 mb-4">
               Commitment To Sustainability
             </h2>
             <p className="text-black leading-relaxed">
@@ -166,7 +166,7 @@ const About = () => {
 
           {/* Environmental Stewardship */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-800 mb-4">
+            <h2 className="text-xl font-bold text-blue-900 mb-4">
               Environmental Stewardship
             </h2>
             <p className="text-black leading-relaxed">

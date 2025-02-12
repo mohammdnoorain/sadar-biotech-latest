@@ -9,7 +9,7 @@ const ProductShowcase = () => {
       description:
         "Innovative solutions for sustainable crop production and agricultural efficiency.",
       bgColor: "bg-green-100",
-      textColor: "text-green-700",
+      textColor: "text-green-600",
       image: "images/sujag.jpg",
       link: "https://sujagfinechemicals.com/",
     },

@@ -29,7 +29,7 @@ const Navbar2 = () => {
   }, [nav]);
 
   return (
-    <div className="fixed top-20 left-0 w-full shadow-md z-20 text-white flex justify-between items-center h-16 px-4 bg-blue-800">
+    <div className="fixed top-20 left-0 w-full shadow-md z-20 text-white flex justify-between items-center h-16 px-4 bg-blue-900">
       <h1 className="text-3xl font-bold primary-color ml-4 " >
         {/* Add logo or brand here */}
       </h1>
@@ -39,7 +39,7 @@ const Navbar2 = () => {
         <li className="p-5 group">
           <Link
             to="/"
-            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
           >
             Home
           </Link>
@@ -47,7 +47,7 @@ const Navbar2 = () => {
         <li className="p-5 group">
           <Link
             to="/about"
-            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
           >
             About
           </Link>
@@ -55,7 +55,7 @@ const Navbar2 = () => {
         <li className="p-5 group">
           <Link
             to="/products"
-            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
           >
             Products
           </Link>
@@ -63,7 +63,7 @@ const Navbar2 = () => {
         <li className="p-5 group">
           <Link
             to="/research"
-            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
           >
             R&D
           </Link>
@@ -71,7 +71,7 @@ const Navbar2 = () => {
         <li className="p-5 group">
           <Link
             to="/contact"
-            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+            className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
           >
             Contact Us
           </Link>
@@ -101,7 +101,7 @@ const Navbar2 = () => {
           <li className="p-2 group">
             <Link
               to="/"
-              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               Home
             </Link>
@@ -109,7 +109,7 @@ const Navbar2 = () => {
           <li className="p-2 group">
             <Link
               to="/about"
-              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               About
             </Link>
@@ -117,7 +117,7 @@ const Navbar2 = () => {
           <li className="p-2 group">
             <Link
               to="/products"
-              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               Products
             </Link>
@@ -125,7 +125,7 @@ const Navbar2 = () => {
           <li className="p-2 group">
             <Link
               to="/research"
-              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               R&D
             </Link>
@@ -133,7 +133,7 @@ const Navbar2 = () => {
           <li className="p-2 group">
             <Link
               to="/contact"
-              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 group-hover:after:w-full"
+              className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               Contact Us
             </Link>

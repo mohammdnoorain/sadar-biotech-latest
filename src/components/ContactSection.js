@@ -9,30 +9,30 @@ const ContactSection = () => {
         <div className="flex flex-col md:flex-row">
           {/* Left Div - Contact Details */}
           <div className="w-full md:w-1/2 p-6 bg-gray-50">
-            <h2 className="text-2xl font-bold mb-4 text-blue-800  hover:text-green-500 transition-colors duration-300">
+            <h2 className="text-2xl font-bold mb-4 text-blue-900  hover:text-green-600 transition-colors duration-300">
               Contact Us
             </h2>
             <div className="space-y-6 text-gray-700">
               <p className="transition-transform duration-300 hover:translate-x-2">
-                <span className="font-semibold text-green-500">Email:</span>{" "}
+                <span className="font-semibold text-green-600">Email:</span>{" "}
                 info@sadarbiotech.com
               </p>
               <p className="transition-transform duration-300 hover:translate-x-2">
-                <span className="font-semibold text-green-500">Phone:</span> +91
+                <span className="font-semibold text-green-600">Phone:</span> +91
                 9226077649
               </p>
               {/* <p className="transition-transform duration-300 hover:translate-x-2">
-                <span className="font-semibold text-green-500">Registered office:</span>
+                <span className="font-semibold text-green-600">Registered office:</span>
                 Sy. No. 136/11, Gauravaddo, Calangute, North Goa 403516
               </p>
               <p className="transition-transform duration-300 hover:translate-x-2">
-                <span className="font-semibold text-green-500">Admin office:</span>
+                <span className="font-semibold text-green-600">Admin office:</span>
                 Above Puma Store, Floor 2, Chogm Road, Porvorim, North Goa 403521
               </p> */}
             </div>
             <button
               type="submit"
-              className="h-12  mb-5 bg-green-500 text-white p-3 rounded-md shadow-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-300 lg:w-auto px-6 mt-8"
+              className="h-12  mb-5 bg-green-600 text-white p-3 rounded-md shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-300 lg:w-auto px-6 mt-8"
             >
               <Link to="/contact"> Contact </Link>
             </button>
@@ -54,7 +54,7 @@ const ContactSection = () => {
             </div>
 
             {/* Green Div */}
-            <div className="absolute bg-green-500 w-2/3 h-[300px] top-0 right-[1%] shadow-md z-0">
+            <div className="absolute bg-green-600 w-2/3 h-[300px] top-0 right-[1%] shadow-md z-0">
               {/* Green div with sharp corners */}
             </div>
           </div>

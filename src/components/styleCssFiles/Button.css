@@ -22,7 +22,8 @@
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
-    background-color: #22c55e
+    /* background-color: #22c55e */
+    background-color:  #16a34a;
   }
   
   .btn--medium {
