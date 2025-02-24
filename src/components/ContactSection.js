@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const ContactSection = () => {
   return (
-    <div className="bg-white  flex items-center justify-center  ">
-      <div className="  mx-auto p-6 shadow-lg border border-gray-200 w-[1300px] ">
+    <div className="bg-white  flex items-center justify-center ">
+      <div className="  mx-auto p-6 shadow-lg border border-gray-200 w-[1400px] ">
         {/* Outer Wrapper */}
         <div className="flex flex-col md:flex-row">
           {/* Left Div - Contact Details */}
@@ -30,12 +30,15 @@ const ContactSection = () => {
                 Above Puma Store, Floor 2, Chogm Road, Porvorim, North Goa 403521
               </p> */}
             </div>
-            <button
-              type="submit"
-              className="h-12  mb-5 bg-green-600 text-white p-3 rounded-md shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-300 lg:w-auto px-6 mt-8"
-            >
-              <Link to="/contact"> Contact </Link>
-            </button>
+            <Link to="/contact">
+  <button
+    type="button"
+    className="h-12 mb-5 bg-green-600 text-white p-3 rounded-md shadow-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-300 lg:w-auto px-6 mt-8"
+  >
+    Contact
+  </button>
+</Link>
+
           </div>
 
           {/* Right Div - Map */}

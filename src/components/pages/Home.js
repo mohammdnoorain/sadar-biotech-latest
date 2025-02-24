@@ -22,7 +22,7 @@ const Home = () => {
     <Showcase/>
     <ProductShowcase/>
     {/* <ProductList/> */}
-    <Showcase2/>
+    {/* <Showcase2/> */}
 
 
   

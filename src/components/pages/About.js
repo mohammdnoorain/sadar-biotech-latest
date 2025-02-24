@@ -21,7 +21,7 @@ const About = () => {
             </p>
 
 
-            {/* ########################### */}
+    
           
           </div>
           <div>
@@ -35,15 +35,17 @@ const About = () => {
       </div>
 
       {/* Our Dedicated Team Section */}
-      <div className="bg-white py-10">
-  <div className="max-w-5xl mx-auto px-6 flex items-center">
+      <div className="bg-white py-10  ">
+      <div className="max-w-5xl mx-auto px-6 flex flex-col-reverse sm:flex-row items-center ">
+
+
     {/* <!-- Image Box on the Left --> */}
-    <div className="w-1/3 mr-6">
+    <div className="w-1/3 mr-6 mt-4">
       <img src="images/iso.jpg" alt="Team" className="w-full h-auto rounded-lg shadow-lg" />
     </div>
     
     {/* <!-- Text Content on the Right --> */}
-    <div className="w-2/3">
+    <div className="w-2/3 ">
       <p className="text-lg text-black leading-relaxed mb-6">
         With a customer-centric approach and a commitment to quality, Sadar Biotech now serves over 25 countries, earning a reputation as a trusted and reliable supplier. Our success is built on a foundation of excellence in product innovation, robust logistics support, and the dedication of our skilled professionals. At Sadar Biotech, we believe in making a positive impact—delivering high-quality solutions that drive growth and sustainability in the industries we serve.
       </p>
@@ -89,93 +91,11 @@ const About = () => {
         </div>
       </div>
 
-      <CardsAbout />
+      {/* <CardsAbout /> */}
        {/* Grid Sections */}
        <div className="bg-white py-10">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Vision and Mission */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-900 mb-4">
-              Our Vision & Mission
-            </h2>
-         
-            <p className="text-black leading-relaxed">
-              At Sadar Biotech, we envision a world where agriculture flourishes
-              with the support of cutting-edge scientific solutions. Our mission
-              is to provide top-tier solutions to nourish farms and safeguard
-              harvests, ensuring a sustainable and thriving future for
-              agriculture. We believe in the mission of safeguarding
-              agricultural produce by delivering high quality products.
-            </p>
-          </div>
-
-          {/* Product Specialization */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-900 mb-4">
-              Product Specialization
-            </h2>
-            <p className="text-black leading-relaxed">
-              In agricultural sector, we specialize in the production and
-              distribution of pesticides, herbicides, fungicides and
-              surfactants. Our “Factory to Farm” approach ensures that quality
-              products directly reach the consumers of the agriculture
-              landscape, embodying efficiency and excellence.
-            </p>
-          </div>
-
-          {/* Global Presence */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-900 mb-4">
-              Global Presence
-            </h2>
-            <p className="text-black leading-relaxed">
-              We have expanded our reach across continents, with a significant
-              presence in Russia, the CIS countries, European markets including
-              the UK and Ukraine, as well as select regions in Latin America as
-              well as in the United States.
-            </p>
-          </div>
-
-          {/* Pharmaceutical Excellence */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-900 mb-4">
-              Pharmaceutical Excellence
-            </h2>
-            <p className="text-black leading-relaxed">
-              In the pharmaceutical sector, we take pride in producing
-              high-quality APIs, serving as the foundation for pharmaceutical
-              formulations. Our commitment to stringent quality control and
-              regulatory standards positions us as a reliable partner for
-              pharmaceutical companies striving for excellence.
-            </p>
-          </div>
-
-          {/* Sustainability */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-900 mb-4">
-              Commitment To Sustainability
-            </h2>
-            <p className="text-black leading-relaxed">
-              Sadar Biotech actively pursues eco-friendly formulations and
-              manufacturing processes, aligning our goals with a greener future
-              for agriculture ecosystem. Our latest R&D initiatives focus on
-              exploring bio-pesticides for next-generation agricultural
-              sustainability.
-            </p>
-          </div>
-
-          {/* Environmental Stewardship */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-gray-200 transition-all duration-300">
-            <h2 className="text-xl font-bold text-blue-900 mb-4">
-              Environmental Stewardship
-            </h2>
-            <p className="text-black leading-relaxed">
-              We see ourselves as protectors and stewards of the environment,
-              contributing to a world where progress and preservation coexist.
-              Our responsibility extends beyond profit margins, reflecting our
-              dedication to a sustainable and harmonious future.
-            </p>
-          </div>
+        
         </div>
       </div>
 

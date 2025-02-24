@@ -11,12 +11,12 @@ const ResearchAndDev = () => {
       {/* Main Content Area */}
       <div className="max-w-6xl mx-auto px-6 py-12 text-gray-800">
         {/* Page Title */}
-        <h1 className="text-4xl font-extrabold text-center mb-2 tracking-wide text-green-600  hover:text-blue-800 transition-colors duration-300">
+        <h1 className="text-4xl mb-8 font-extrabold text-center mb-2 tracking-wide text-green-600  hover:text-blue-800 transition-colors duration-300">
           Research & Development
         </h1>
-        <div className="burning-line-container mb-8">
+        {/* <div className="burning-line-container mb-8">
         <div className="burning-line"></div>
-      </div>
+      </div> */}
 
         {/* Introduction Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-16">

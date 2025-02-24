@@ -14,21 +14,22 @@ const ProductRange = () => {
 
   return (
     <div className="flex flex-col justify-center items-center bg-gradient-to-br from-white to-gray-100 p-4 sm:p-8">
-      <div className="max-w-7xl w-full">
+      <div className=" lg:w-[1400px]">
         <h1 className='text-3xl sm:text-4xl font-bold text-center mb-4 tracking-wide'>
-          <span className='text-black'>Why Choose </span>
-          <span className='text-green-600'>Sadar Biotech?</span>
+          {/* <span className='text-green-600  hover:text-blue-900'></span> */}
+          <span className='text-green-600  hover:text-blue-900 '>Why Choose  Sadar Biotech?</span>
         </h1>
 
-        <div className="w-16 sm:w-24 h-1 bg-green-600 mx-auto mb-6 rounded-full"></div>
+        {/* <div className="w-16 sm:w-24 h-1 bg-green-600 mx-auto mb-6 rounded-full"></div> */}
 
-        <div className="flex flex-col lg:flex-row gap-4 items-start">
-          <div className="flex-1 p-4 sm:p-6 bg-gradient-to-r from-green-600 to-teal-600 rounded-lg shadow-lg text-white min-w-[250px]">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-center">Our Core Values</h2>
-            <p className="mb-4 sm:mb-6 text-sm text-center">
+        <div className="flex flex-col lg:flex-row gap-4 items-start mt-8">
+          {/* <div className="flex-1 p-4 sm:p-6 bg-gradient-to-r from-green-600 to-teal-600 rounded-lg shadow-lg text-white min-w-[250px]"> */}
+          <div className="flex-1 p-4 sm:p-6  rounded-lg shadow-lg  min-w-[250px] h-[205px] border-t-4 border-green-600 ">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-center text-blue-900">Our Core Values</h2>
+            <p className="mb-4 sm:mb-2 text-l text-center  text-black">
               With over years of experience, we are dedicated to delivering premium quality products. Our relentless commitment to innovation and excellence drives us to be industry leaders.
             </p>
-            <p className="text-sm text-center">
+            <p className="text-l text-center">
               Our certified experts ensure top-notch standards in every product we deliver, making Sadar Biotech a name synonymous with trust and reliability.
             </p>
           </div>
@@ -42,7 +43,7 @@ const ProductRange = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                <div className="bg-green-100 p-2 sm:p-1 rounded-full ">
+                <div className="bg-blue-100 p-2 sm:p-1 rounded-full ">
                   {feature.icon}
                 </div>
                 <h3 className="text-xs sm:text-sm font-medium text-gray-800 text-center">{feature.name}</h3>

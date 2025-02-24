@@ -62,12 +62,12 @@ const ContactUs = () => {
         <div className="max-w-7xl mx-auto px-6">
           {/* Contact Header */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-blue-900 hover:text-green-600 transition-colors duration-300">
+            <h1 className="text-4xl font-bold text-green-600 hover:text-blue-900 transition-colors duration-300">
               Get in Touch
             </h1>
-            <div className="burning-line-container mb-8">
+            {/* <div className="burning-line-container mb-8">
               <div className="burning-line"></div>
-            </div>
+            </div> */}
             <p className="mt-4 text-lg text-gray-700">
               We’d love to hear from you! Reach out to us for any inquiries or
               support.

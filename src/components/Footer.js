@@ -3,23 +3,22 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 h-auto py-10 px-6 md:px-20 flex flex-col md:flex-row items-center justify-around text-gray-800 space-y-8 md:space-y-0">
+    <footer className="bg-gray-100 h-auto py-10 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between text-gray-800 space-y-8 md:space-y-0">
       {/* Company Logo */}
-      <div className="hidden md:block">
+      {/* <div className="hidden md:block">
         <img src="images/logo.jpg" alt="Logo" className="w-32 h-auto mb-20" />
-      </div>
+      </div> */}
       
       {/* Contact Info */}
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col items-center text-center ">
         <h2 className="text-lg font-semibold text-green-600">Contact</h2>
         <p className="mt-1">+91 9226077649</p>
-        <p className="mt-1">Above Puma Store, Floor 2</p>
-        <p className="mt-1">Chogm Road, Porvorim</p>
-        <p className="mt-1">North Goa 40352, India</p>
+        <p className="mt-1">2nd Floor,Above Puma Store</p>
+        <p className="mt-1">Chogm Road, Porvorim,North Goa 40352, India</p>
       </div>
       
       {/* Social Media Links */}
-      <div className="flex flex-col items-center text-center  ">
+      <div className="flex flex-col items-center text-center md:mr-[120px] ">
         <h2 className="text-lg font-semibold text-green-600  ">Connect</h2>
         <div className="flex space-x-4 mb-[95px] ">
           <Link to="https://www.facebook.com/Sadarbiotech/" className="text-gray-500 hover:text-gray-700 ">

@@ -8,7 +8,7 @@
   
   .hero-container-about {
     /* background: url('../public/images/innovation-technology-bg.jpg') center center/cover no-repeat; */
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;

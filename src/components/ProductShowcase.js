@@ -10,7 +10,7 @@ const ProductShowcase = () => {
         "Innovative solutions for sustainable crop production and agricultural efficiency.",
       bgColor: "bg-green-100",
       textColor: "text-green-600",
-      image: "images/sujag.jpg",
+      image: "images/building.jpg",
       link: "https://sujagfinechemicals.com/",
     },
     {
@@ -19,30 +19,30 @@ const ProductShowcase = () => {
       description:
         "Surfactants play a key role in industrial cleaning and product formulations.",
       bgColor: "bg-blue-100",
-      textColor: "text-blue-700",
+      textColor: "text-blue-800",
       image: "images/about3.png",
     },
-    {
-      name: "API and Excipients",
-      manufacturer: "Vinishaw Pharmaceuticals Pvt Ltd",
-      description:
-        "High-quality APIs and excipients for advanced pharmaceutical solutions.",
-      bgColor: "bg-yellow-100",
-      textColor: "text-yellow-700",
-      image: "images/unnamed7.png",
-    },
+    // {
+    //   name: "API and Excipients",
+    //   manufacturer: "Vinishaw Pharmaceuticals Pvt Ltd",
+    //   description:
+    //     "High-quality APIs and excipients for advanced pharmaceutical solutions.",
+    //   bgColor: "bg-yellow-100",
+    //   textColor: "text-yellow-700",
+    //   image: "images/unnamed7.png",
+    // },
   ];
 
   const [hoverIndex, setHoverIndex] = useState(null);
 
   return (
     <div className="container">
-      <h1 className="heading">Our Products and Manufacturers</h1>
+      <h1 className="heading">Our Manufacturing Facilities</h1>
 
       {/* Burning Movable Line (Fixed) */}
-      <div className="burning-line-container">
+      {/* <div className="burning-line-container">
         <div className="burning-line"></div>
-      </div>
+      </div> */}
 
       {/* Cards Layout */}
       <div className="cards-container">

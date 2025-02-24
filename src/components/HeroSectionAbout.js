@@ -8,7 +8,7 @@ function HeroSectionAbout() {
   return (
     <div className='hero-container-about'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <img src='/images/homeimg.jpg' className='background-about'/>
+      <img src='/images/aboutus201.avif' className='background-about'/>
       <h1>About Us </h1>
       <p> Our Incredable Story</p>
       <div className='hero-btns'>
