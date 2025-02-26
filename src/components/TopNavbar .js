@@ -12,7 +12,7 @@ const TopNavbar = () => {
         <img 
           src="images/logo.jpg" 
           alt="Logo" 
-          className="w-20 sm:w-24 md:w-36 mt-[-20px] md:mt-[-38px] md:mb-[-44px]" 
+          className="w-20 sm:w-24 md:w-36 mt-[-4px] md:mt-[-38px] md:mb-[-44px]" 
           
         />
         </Link>

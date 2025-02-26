@@ -60,14 +60,14 @@ const Navbar2 = () => {
             Products
           </Link>
         </li>
-        <li className="p-5 group">
+        {/* <li className="p-5 group">
           <Link
             to="/research"
             className="text-xl relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
           >
             R&D
           </Link>
-        </li>
+        </li> */}
         <li className="p-5 group">
           <Link
             to="/contact"
@@ -122,14 +122,14 @@ const Navbar2 = () => {
               Products
             </Link>
           </li>
-          <li className="p-2 group">
+          {/* <li className="p-2 group">
             <Link
               to="/research"
               className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-green-600 after:transition-all after:duration-300 group-hover:after:w-full"
             >
               R&D
             </Link>
-          </li>
+          </li> */}
           <li className="p-2 group">
             <Link
               to="/contact"

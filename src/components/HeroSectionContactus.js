@@ -16,7 +16,7 @@ function HeroSectionContactus() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-   <Link to='/contact'> Contact Us</Link>
+   <Link to = '/contact'> Contact Us</Link>
         </Button>
         <Button
           className='btns'

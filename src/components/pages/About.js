@@ -45,7 +45,8 @@ const About = () => {
     </div>
     
     {/* <!-- Text Content on the Right --> */}
-    <div className="w-2/3 ">
+    <div className="w-full sm:w-4/5 md:w-2/3">
+
       <p className="text-lg text-black leading-relaxed mb-6">
         With a customer-centric approach and a commitment to quality, Sadar Biotech now serves over 25 countries, earning a reputation as a trusted and reliable supplier. Our success is built on a foundation of excellence in product innovation, robust logistics support, and the dedication of our skilled professionals. At Sadar Biotech, we believe in making a positive impact—delivering high-quality solutions that drive growth and sustainability in the industries we serve.
       </p>
@@ -88,6 +89,41 @@ const About = () => {
           <p className="text-lg text-black  leading-relaxed">
             As we continue to grow and innovate, we invite you to join us on our journey. Whether you are a business seeking a trusted supplier, or an individual business owner passionate about sustainable agriculture methods and practices, Sadar Biotech Private Limited is your partner of choice. Together, we can create a greener, more productive future for agriculture.
           </p>
+        </div>
+      </div>
+
+
+       {/*  research and development */}
+       <div className="bg-white py-10">
+        <div className="max-w-5xl mx-auto px-6 ">
+          <h2 className="text-2xl font-bold text-green-600 text-center hover:text-blue-900 mb-6">Research & Development</h2>
+
+
+{/* ########################### */}
+<div className="flex flex-col md:flex-row items-start gap-6">
+  {/* Image Section */}
+  <div className="w-full md:w-1/3">
+    <img  
+      src="images/research.avif"
+      alt="Research Image"
+      className="object-cover w-full h-auto rounded-lg"
+    />
+  </div>
+
+  {/* Text Section */}
+  <div className="w-full md:w-2/3 flex flex-col">
+    <p className="text-lg text-black leading-relaxed">
+      At Sadar Biotech Private Limited, our Research and Development (R&D) is the driving force behind sustainable agricultural innovation. With a strong focus on bio-pesticides and surfactants, we continuously strive to enhance the efficiency of agricultural inputs while maintaining our commitment to environmental responsibility. Inspired by our customers' evolving needs, we develop cutting-edge solutions that ensure optimal performance across diverse conditions.
+    </p>
+    <p className="text-lg text-black leading-relaxed mt-4 md:ml-[-55%]">
+      Our “Factory to Farm” approach bridges the gap between innovation and real-world application, delivering high-quality, eco-friendly products directly to you. Join us in cultivating a greener, more sustainable future for agriculture and beyond.
+    </p>
+  </div>
+</div>
+
+
+{/* ########################### */}
+
         </div>
       </div>
 
