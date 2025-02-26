@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src="/images/about3.png"
+              src="/images/sadaraboutus.jpg"
               alt="Our Story"
               className=" w-screen rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />

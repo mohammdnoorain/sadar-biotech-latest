@@ -6,7 +6,7 @@ import ProductList from "../productList";
 import "../styleCssFiles/ProductShowcase.css"; // Import the CSS file for styles
 
 const Products = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
   // const [linePosition, setLinePosition] = useState(null);
   const productRefs = useRef([]);
 

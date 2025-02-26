@@ -17,11 +17,11 @@ const ProductList = () => {
           <span className='text-green-600 hover:text-blue-900'>Our Product Range</span>
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {products.map((product, index) => (
             <motion.div
               key={index}
-              className="flex flex-col justify-center items-center p-6 bg-white rounded-xl shadow-2xl border-t-4 border-green-600 hover:shadow-green-300 transition-shadow duration-300"
+              className="flex   flex-col justify-center items-center p-6 bg-white rounded-xl shadow-2xl border-t-4 border-green-600 hover:shadow-green-300 transition-shadow duration-300"
               whileHover={{ scale: 1.05 }}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}

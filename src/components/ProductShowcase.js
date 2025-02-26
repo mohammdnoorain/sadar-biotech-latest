@@ -15,12 +15,12 @@ const ProductShowcase = () => {
     },
     {
       name: "Surfactant",
-      manufacturer: "Sadar Biotec Pvt Ltd",
+      manufacturer: "Sadar Biotech Pvt Ltd",
       description:
         "Surfactants play a key role in industrial cleaning and product formulations.",
       bgColor: "bg-blue-100",
       textColor: "text-blue-800",
-      image: "images/about3.png",
+      image: "images/sadarpic.jpg",
     },
     // {
     //   name: "API and Excipients",
