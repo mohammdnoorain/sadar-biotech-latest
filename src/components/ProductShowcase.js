@@ -10,7 +10,7 @@ const ProductShowcase = () => {
         "Innovative solutions for sustainable crop production and agricultural efficiency.",
       bgColor: "bg-green-100",
       textColor: "text-green-600",
-      image: "images/building.jpg",
+      image: "images/factory2.webp",
       link: "https://sujagfinechemicals.com/",
     },
     {
@@ -20,7 +20,7 @@ const ProductShowcase = () => {
         "Surfactants play a key role in industrial cleaning and product formulations.",
       bgColor: "bg-blue-100",
       textColor: "text-blue-800",
-      image: "images/sadarpic.jpg",
+      image: "images/factory.jpg",
     },
     // {
     //   name: "API and Excipients",

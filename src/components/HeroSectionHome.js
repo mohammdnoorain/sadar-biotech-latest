@@ -18,7 +18,7 @@ function HeroSectionHome() {
   const getSlideText = () => {
     switch (slideIndex) {
       case 0:
-        return 'PESTICIDES & FERTILIZER';
+        return 'PESTICIDES';
       case 1:
         return 'API & Intermediate';
       case 2:

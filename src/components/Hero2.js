@@ -8,7 +8,7 @@ const images = [
 ];
 
 const texts = [
-  'Pesticide and Fertilizer',
+  'Pesticide',
   'Surfactant',
   'Agro Technical Product'
 ];

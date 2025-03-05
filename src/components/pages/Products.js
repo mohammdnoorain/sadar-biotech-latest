@@ -429,7 +429,7 @@ const Products = () => {
                 <div className="mt-4 w-full">
                   {item.table.map((tableItem, i) => (
                     <div key={i} className="mb-6">
-                      <h3 className="text-base md:text-xl font-semibold mb-4 cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-blue-900">
+                      <h3 className="text-base md:text-xl font-semibold mb-4 transition-transform duration-300 ">
                         {tableItem.category}
                       </h3>
                       <div className="overflow-x-auto">
@@ -439,7 +439,7 @@ const Products = () => {
                               {Object.keys(tableItem.products[0] || {}).map((header, idx) => (
                                 <th
                                   key={idx}
-                                  className="border border-blue-300 p-2 capitalize cursor-pointer transition-transform duration-300 hover:scale-105"
+                                  className="border border-blue-300 p-2 capitalize  transition-transform duration-300 hover:scale-105"
                                 >
                                   {header}
                                 </th>
@@ -451,7 +451,7 @@ const Products = () => {
                               <tr
                                 key={j}
                                 // className="hover:bg-green-600 cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-white text-xs md:text-sm"
-                                 className="hover:bg-green-600 cursor-pointer   hover:text-white text-xs md:text-sm"
+                                 className="  text-xs md:text-sm"
                               >
                                 {Object.values(product).map((value, idx) => (
                                   <td key={idx} className="border border-blue-500 p-2">

@@ -15,7 +15,7 @@ const Showcase = () => {
     },
     {
       name: "Surfactants for Agro",
-      image: "images/pharma2.jpg",
+      image: "images/s.jpg",
     },
     {
       name: "Surfactants for Home and Personal Care",
