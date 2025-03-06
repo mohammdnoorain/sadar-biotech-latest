@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { MessageCircle} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,19 +11,26 @@ const Footer = () => {
       </div>
       
 <p></p>
-      {/* Contact Info */}
-      <div className="flex items-center lg:items-start space-x-2">
-  {/* Vertical Green Line (Only shown on medium and larger screens) */}
-  <div className="w-[4px] bg-green-600 h-[120px] hidden md:block lg:self-start"></div>
+<div className="flex items-center lg:items-start space-x-2">
+  {/* Icon and Vertical Line Wrapper */}
+  <div className="relative flex flex-col items-center">
+    {/* Message Icon */}
+    <MessageCircle className="text-green-600 w-6 h-6  transform scale-x-[-1] mr-4 mt-[-15px] hidden md:block" />
+
+    
+    {/* Vertical Green Line */}
+    <div className="w-[4px] bg-green-600 h-[110px]  hidden md:block"></div>
+  </div>
 
   {/* Contact Section */}
-  <div className="flex flex-col items-center text-center lg:items-start lg:text-left md:mb-2 ">
+  <div className="flex flex-col items-center text-center lg:items-start lg:text-left md:mb-2">
     <h2 className="text-lg font-semibold text-green-600 mb-2">Contact</h2>
-    <p className="mt-1 ">+91 9226077649</p>
-    <p className="mt-1 ">2nd Floor, Above Puma Store</p>
+    <p className="mt-1">+91 9226077649</p>
+    <p className="mt-1">2nd Floor, Above Puma Store</p>
     <p className="mt-1">Chogm Road, Porvorim, North Goa 40352, India</p>
   </div>
 </div>
+
 
 
 
