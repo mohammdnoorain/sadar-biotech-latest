@@ -62,7 +62,7 @@ export default function Hero2() {
           transition={{ duration: 1, delay: 1 }}
           className="text-xl md:text-2xl text-white mb-12 max-w-[1300px]"
         >
-          We specialize in agro-chemical formulations, technicals, surfactants, solvents, and pharmaceutical products (API, Intermediaries, and Excipients), operating across multiple factories in India and delivering trust globally.
+          We specialize in agro-chemical formulations, technicals, surfactants, solvents and API.
         </motion.p>
       </div>
 

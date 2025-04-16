@@ -32,7 +32,7 @@ function HeroSectionHome() {
     <div className='hero-container'>
       {/* <video src='/videos/10744336-sd_960_540_24fps.mp4' autoPlay loop muted /> */}
       <img src='images/field.jpg ' />
-      <h1 className='text-white '>Welcome to Sadar Biotech. We specialize in agro-chemical formulations, technicals, surfactants, solvents, and pharmaceutical products ( API, Intermediaries and Excipient) operating across multiple factories in India and delivering trust globally</h1>
+      <h1 className='text-white '>Welcome to Sadar Biotech. We specialize in agro-chemical formulations, technicals, surfactants, solvents and API</h1>
       <h1 className="slide-text  ">
         {getSlideText()}
       </h1>
