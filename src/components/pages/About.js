@@ -9,30 +9,19 @@ const About = () => {
   return (
     <div>
       <HeroSectionAbout />
-      <div className="bg-gradient-to-b bg-white py-10">
-        {/* Our Story Section */}
-        <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div>
-            <h1 className="text-4xl font-bold text-black mb-4 text-center ">
-              Our Journey
-            </h1>
-            <p className="text-lg text-black leading-relaxed mb-4">
-              Founded in 2017, Sadar Biotech Private Limited began its journey as a trading company, specializing in the export of Agro-Chemical Technicals and Active Pharmaceutical Ingredients (APIs). Driven by a vision to serve the global market, we expanded into manufacturing in 2020, acquiring two state-of-the-art agro-chemical production units in Gujarat and a pharmaceutical facility in Banda, Maharashtra.
-            </p>
+      <div className="bg-gradient-to-b from-white to-white py-10">
+  {/* Our Story Section */}
+  <div className="max-w-5xl mx-auto px-4 text-center">
+    <h1 className="text-4xl font-bold text-black mb-4">Our Journey</h1>
+    <p className="text-lg text-black leading-relaxed">
+      Founded in 2017, Sadar Biotech Private Limited began its journey as a trading company,
+      specializing in the export of Agro-Chemical Technicals and Active Pharmaceutical Ingredients (APIs).
+      Driven by a vision to serve the global market, we expanded into manufacturing in 2020, acquiring two
+      state-of-the-art agro-chemical production units in Gujarat and a pharmaceutical facility in Banda, Maharashtra.
+    </p>
+  </div>
+</div>
 
-
-    
-          
-          </div>
-          <div>
-            <img
-              src="/images/sadaraboutus.jpg"
-              alt="Our Story"
-              className=" w-screen rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-        </div>
-      </div>
 
       {/* Our Dedicated Team Section */}
       <div className="bg-white py-10  ">
@@ -100,26 +89,18 @@ const About = () => {
 
 
 {/* ########################### */}
-<div className="flex flex-col md:flex-row items-start gap-6">
-  {/* Image Section */}
-  <div className="w-full md:w-1/3">
-    <img  
-      src="images/research.avif"
-      alt="Research Image"
-      className="object-cover w-full h-auto rounded-lg"
-    />
-  </div>
-
-  {/* Text Section */}
-  <div className="w-full md:w-2/3 flex flex-col">
-    <p className="text-lg text-black leading-relaxed">
+<div className="bg-gradient-to-b from-white to-white py-2">
+  <div className="max-w-7xl mx-auto px-2 ">
+    <p className="text-lg text-black leading-relaxed mb-4">
       At Sadar Biotech Private Limited, our Research and Development (R&D) is the driving force behind sustainable agricultural innovation. With a strong focus on bio-pesticides and surfactants, we continuously strive to enhance the efficiency of agricultural inputs while maintaining our commitment to environmental responsibility. Inspired by our customers' evolving needs, we develop cutting-edge solutions that ensure optimal performance across diverse conditions.
     </p>
-    <p className="text-lg text-black leading-relaxed mt-4 md:ml-[-55%]">
+    <p className="text-lg text-black leading-relaxed">
       Our “Factory to Farm” approach bridges the gap between innovation and real-world application, delivering high-quality, eco-friendly products directly to you. Join us in cultivating a greener, more sustainable future for agriculture and beyond.
     </p>
   </div>
 </div>
+
+
 
 
 {/* ########################### */}
