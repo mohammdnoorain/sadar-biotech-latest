@@ -96,14 +96,14 @@ const ContactUs = () => {
   <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
     <div className="border border-gray-300 p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/2">
       <p className="transition-transform duration-300 hover:translate-x-2">
-        <span className="font-semibold text-green-600">Registered office:</span>
+        <span className="font-semibold black">Registered office:</span>
         Sy. No. 136/11, Gauravaddo, Calangute, North Goa 403516
       </p>
     </div>
 
     <div className="border border-gray-300 p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/2">
       <p className="transition-transform duration-300 hover:translate-x-2">
-        <span className="font-semibold text-green-600">Admin office:</span>
+        <span className="font-semibold bold">Admin office:</span>
         Above Puma Store, Floor 2, Chogm Road, Porvorim, North Goa 403521
       </p>
     </div>
@@ -111,7 +111,7 @@ const ContactUs = () => {
 
   {/* Manufacturing Units */}
   <div className="space-y-4">
-    <p className="font-semibold text-green-600 text-lg">Manufacturing Units:</p>
+    <p className="font-semibold text-blue-900 text-2xl">Manufacturing Units:</p>
 
     {/* Unit 1 and Unit 2 side by side */}
     <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
